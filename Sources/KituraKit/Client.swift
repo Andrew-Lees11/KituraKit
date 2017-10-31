@@ -15,15 +15,12 @@
  **/
 
 import Foundation
-import LoggerAPI
-import SwiftyRequest
-import KituraContracts
 
 /// A client side library for using REST requests in a web application.
 public class KituraKit {
 
     /// Default URL used for setting up the routes when no URL is provided in the initializer.
-    public static var defaultBaseURL = URL(string: "http://localhost:8080")!
+    public static var defaultBaseURL = URL(string: "http://localhost:8090")!
     
     /// Default route used for setting up the paths based on the URL provided in the initializer.
     public static var `default`: KituraKit {
