@@ -2,7 +2,7 @@
 
 branches:
   only:
-    - pod
+    - master
 
 matrix:
   include:
