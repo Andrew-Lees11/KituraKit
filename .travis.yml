@@ -19,4 +19,4 @@ script:
 jobs: 
   include: 
      - stage: Releases
-       script: ci/release.sh
+       script: ci/update.sh
