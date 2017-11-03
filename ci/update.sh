@@ -16,4 +16,4 @@ git checkout master Sources/KituraKit/PersistableExtension.swift
 git checkout master Sources/KituraKit/RequestErrorExtension.swift
 git add .
 git commit -m "Update to version 0.0.2"
-git push
+git push --set-upstream origin pod
