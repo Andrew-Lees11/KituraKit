@@ -5,7 +5,7 @@ USER=Andrew-lees11
 git config user.name "KituraKit bot"
 git config push.default simple
 git remote rm origin
-git remote add origin https://${USER}@github.com/IBM-Swift/KituraKit
+git remote add origin https://github.com/Andrew-Lees11/KituraKit
 cd Sources/KituraKit
 git checkout master .builds/checkouts/LoggerAPI.git*/Sources/LoggerAPI
 git checkout master .builds/checkouts/CircuitBreaker.git*/Sources/CircuitBreaker
