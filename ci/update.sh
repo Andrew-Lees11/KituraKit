@@ -1,11 +1,11 @@
 #!/bin/bash
 
 
-USER=Andrew-lees11
+USER=Andrew-lees11:${GH_TOKEN}
 git config user.name "KituraKit bot"
 git config push.default simple
 git remote rm origin
-git remote add origin https://github.com/Andrew-Lees11/KituraKit
+git remote add origin https://${USER}@github.com/Andrew-Lees11/KituraKit
 cd Sources/KituraKit
 git checkout master .builds/checkouts/LoggerAPI.git*/Sources/LoggerAPI
 git checkout master .builds/checkouts/CircuitBreaker.git*/Sources/CircuitBreaker
@@ -15,5 +15,5 @@ git checkout master Sources/KituraKit/Client.swift
 git checkout master Sources/KituraKit/PersistableExtension.swift
 git checkout master Sources/KituraKit/RequestErrorExtension.swift
 git add .
-git commit -m "Update to version 0.0.2"
+git commit -m "Automatic pod update"
 git push --set-upstream origin pod
