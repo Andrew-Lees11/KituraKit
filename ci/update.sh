@@ -1,3 +1,5 @@
+#!/bin/bash
+
 USER=SwiftDevOps:${GH_TOKEN}
 git config user.name "KituraKit bot"
 git config push.default simple
