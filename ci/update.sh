@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-USER=SwiftDevOps:${GH_TOKEN}
+USER=Andrew-lees11
 git config user.name "KituraKit bot"
 git config push.default simple
 git remote rm origin
